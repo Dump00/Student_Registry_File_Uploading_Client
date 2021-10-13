@@ -5,9 +5,12 @@
   "main": "index.js",
   "scripts": {
     "watch": "tsc --watch",
-    "start" : "rm -rf ./dist && tsc && node ./dist/main.js"
+    "start": "rm -rf ./dist && tsc && node ./dist/main.js"
   },
   "keywords": [],
   "author": "Rushain Sovis",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
 }
