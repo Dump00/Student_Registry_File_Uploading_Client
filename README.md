@@ -5,7 +5,7 @@
 
 1. Clone the repository
 
-`git clone {}`
+`git clone https://github.com/sovisrushain/Student_Registry_File_Uploading_Client.git`
 
 2. Open it in IntelliJ IDEA OR a preferred IDE
 
