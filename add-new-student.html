@@ -4,11 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css">
+    <link rel="stylesheet" href="./css/new-student.css">
     <title>Add New Student</title>
 </head>
 <body>
     <div class="container">
-        <h1>Add New Student</h1>
+        <h1 class="text-center pt-5">
+            <a href="index.html"><i class="fas fa-arrow-left"></i></a>
+            Add New Student
+        </h1>
+            <form class="p-5">
+                <div class="mb-3">
+                    <label class="form-label">Student Name</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Student Address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Student Contact</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="row">
+                    <div class="col-8">
+                        <div class="form-group__image-wrapper">
+                            <img id="picture" width="150" height="150">
+                            <input type="file" id="file" accept="image/*">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="row">
+                            <button type="button" class="btn btn-info mt-3">Primary</button>
+                        </div>
+                        <div class="row">
+                            <button type="button" class="btn btn-warning mt-4">Primary</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-primary mt-4 btn-block">Save Student</button>
+                </div> 
+            </form>
     </div>
 </body>
 </html>
